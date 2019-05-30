@@ -1,0 +1,21 @@
+﻿@*@{
+        ViewBag.Title = "Temoignages";
+        ViewBag.Title = "Inserer un commentaire";
+
+    }*@
+<body>
+    <h2>Temoignages</h2>
+    <form name="mon-formulaire1">
+        <div class="form-group">
+            <label for="comment">Inserer un témoignage:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+            <label for="Comment">Insérer une deux photos de vous avant et après:</label><br />
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value="Upload Image" name="submit">
+            <button type="button" class="btn btn-primary">Photo avant</button> <button type="button" class="btn btn-primary">Photo après</button>
+        </div>
+    </form>
+</body>
+
+
+
